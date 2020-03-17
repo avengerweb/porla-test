@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "build": "cmake-js -r electron -v 7.1.14 -a x64 --CDCMAKE_BUILD_TYPE=Release --CDBUILD_SHARED_LIBS=off --CDdeprecated-functions=off --CDBOOST_ROOT=%BOOST_ROOT_1_69_0% --CDBoost_INCLUDE_DIR=%BOOST_ROOT_1_69_0%  --CDBoost_LIBRARY_DIRS=%BOOST_ROOT_1_69_0%\\stage\\lib --CDBoost_USE_STATIC_LIBS=on --CDOPENSSL_USE_STATIC_LIBS=TRUE build",
+    "build": "cmake-js -r electron -v 7.1.14 -a x64 --CDCMAKE_BUILD_TYPE=Release --CDBUILD_SHARED_LIBS=off --CDdeprecated-functions=off --CDBOOST_ROOT=%BOOST_ROOT_1_69_0% --CDBoost_INCLUDE_DIR=%BOOST_ROOT_1_69_0% --CDBoost_LIBRARY_DIRS=%BOOST_ROOT_1_69_0%\\stage\\lib --CDBoost_USE_STATIC_LIBS=on --CDOPENSSL_USE_STATIC_LIBS=TRUE build",
     "build-linux": "cmake-js -r electron -v 7.1.14 -a x64 --CDCMAKE_BUILD_TYPE=Release --CDBoost_NO_BOOST_CMAKE=TRUE --CDBoost_NO_SYSTEM_PATHS=TRUE --CDBOOST_ROOT=/opt/boost_1_68_0 --CDBoost_INCLUDE_DIR=/opt/boost_1_68_0 --CDBoost_LIBRARY_DIRS=/opt/boost_1_68_0/stage/lib --CDBUILD_SHARED_LIBS=off --CDdeprecated-functions=off --CDBoost_USE_STATIC_LIBS=on --CDOPENSSL_USE_STATIC_LIBS=TRUE build",
     "clean": "cmake-js clean"
   },
